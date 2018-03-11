@@ -2373,3 +2373,7 @@ p.form-submit,
     font-size: 4rem;
   }
 }
+
+body {
+  background-color: #fff168;
+}
