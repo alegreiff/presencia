@@ -1,8 +1,9 @@
 $colorbase: #1926ff;
-body{
+body {
   background-color: lighten($colorbase, 10%);
 }
-#presencia_main{
+
+#presencia_main {
   display: grid;
   height: 600px;
   background-color: lighten($colorbase, 20%);;
@@ -10,11 +11,17 @@ body{
   padding: 0;
   margin: 0;
 }
-.cssgrid_class{
+
+.cssgrid_class {
   padding: 0;
   margin: 0 auto;
-  background-color: lighten($colorbase, 35%);;
-header{
-  display: none;
-}
+  background-color: lighten($colorbase, 35%);
+  header {
+    display: none;
+  }
+  main.content {
+    padding: 0;
+    margin: 0 auto;
+    background-color: darken($colorbase, 17%);
+  }
 }

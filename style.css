@@ -2396,3 +2396,9 @@ body {
 .cssgrid_class header {
   display: none;
 }
+
+.cssgrid_class main.content {
+  padding: 0;
+  margin: 0 auto;
+  background-color: #000bc1;
+}
