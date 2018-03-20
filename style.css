@@ -2382,6 +2382,8 @@ section.container {
   display: grid;
   background-color: #757dff;
   grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 200px 1fr 133px 1fr;
+  grid-gap: 0.6em;
 }
 
 section.container .item {

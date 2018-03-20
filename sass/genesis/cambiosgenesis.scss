@@ -3,30 +3,18 @@ body {
   background-color: lighten($colorbase, 10%);
 }
 
-section.container{
+section.container {
   display: grid;
   background-color: lighten($colorbase, 18%);
   grid-template-columns: 25% 50% 25%;
-.item{
-  background: lightblue;
-  padding: 11px;
-  border: 1px solid red;
+  grid-template-rows: 200px 1fr 133px 1fr;
+  grid-gap: 0.6em;
+  .item {
+    background: lightblue;
+    padding: 11px;
+    border: 1px solid red;
+  }
 }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .cssgrid_class {
   padding: 0;
