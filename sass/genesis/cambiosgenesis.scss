@@ -6,6 +6,7 @@ body {
 section.container{
   display: grid;
   background-color: lighten($colorbase, 18%);
+  grid-template-columns: 200px 200px 200px auto;
 }
 
 
