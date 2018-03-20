@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans|Roboto|Wallpoet');
+$letraespecial: 'Josefin Sans', sans-serif;
+$letrabase: 'Roboto', sans-serif;
+$letratitulos: 'Open Sans', sans-serif;
+$letranumeros: 'Wallpoet', cursive;
+body{
+  font-family: $letrabase;
+}
+body > div {
+  font-size: 15px;
+  font-size: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: $letraespecial;
+}

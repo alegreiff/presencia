@@ -1,0 +1,52 @@
+.noticiashomepetroseismictitulo {
+  color: $blanco;
+  font-weight: 900;
+  text-align: center;
+  background-color: oscurecer($azulmedio, 10);
+  padding: 0.6em 0 0.1em 0;
+}
+
+#noticiashomepetroseismic {
+
+  > div {
+    margin: 0 0 0 0;
+
+    min-height: 340px;
+    border: 1px aclarar($azulsuave, 80) solid;
+  }
+  .entry-time {
+    padding: 0 1em 0 1em;
+    font-size: 0.8em;
+    font-weight: bolder;
+    margin: 0 !important;
+  }
+  p:last-of-type {
+    margin-top: -30px;
+    padding: 0 1em 0 1em;
+
+  }
+  img {
+    min-width: 100%;
+
+  }
+}
+
+.site-footer {
+  background-color: $azulmedio;
+  padding: 20px;
+  text-align: center;
+}
+
+
+main#genesis-content{
+  background-color: $blanco;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+
+
+.textosobreimagenpetroseismic{
+  margin-top: -100px !important;
+
+  }
