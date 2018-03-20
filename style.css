@@ -2381,7 +2381,7 @@ body {
 section.container {
   display: grid;
   background-color: #757dff;
-  grid-template-columns: 200px 200px 200px auto;
+  grid-template-columns: 25% 50% 25%;
 }
 
 .cssgrid_class {
