@@ -2380,9 +2380,9 @@ body {
 
 #presencia_main {
   display: grid;
-  height: 100vh;
-  background-color: #f10fff;
-  min-width: 100vw;
+  height: 600px;
+  background-color: #481718;
+  min-width: 100%;
   padding: 0;
   margin: 0;
 }
