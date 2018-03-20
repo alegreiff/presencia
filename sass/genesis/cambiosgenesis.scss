@@ -6,7 +6,7 @@ body {
 section.container {
   display: grid;
   background-color: lighten($colorbase, 18%);
-  grid-template-columns: 25% 50% 25%;
+  grid-template-columns: 25% 50% calc(25% - 20px);
   grid-template-rows: 200px 1fr 133px 1fr;
   grid-gap: 0.6em;
   .item {
