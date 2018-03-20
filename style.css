@@ -2392,3 +2392,7 @@ body {
   margin: 0 auto;
   background-color: #ccceff;
 }
+
+.cssgrid_class header {
+  display: none;
+}
