@@ -2385,6 +2385,13 @@ body {
   min-width: 100%;
   padding: 0;
   margin: 0;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 1fr;
+}
+
+#presencia_main div {
+  padding: 1em;
+  font-size: 1.7em;
 }
 
 .cssgrid_class {
