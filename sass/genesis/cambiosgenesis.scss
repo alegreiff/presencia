@@ -3,19 +3,9 @@ body {
   background-color: lighten($colorbase, 10%);
 }
 
-.ensayo{
+section.container{
   display: grid;
-  height: 600px;
-  background-color: lighten($colorbase, 60%);
-  min-width: 100%;
-  padding: 0;
-  margin: 0;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 2fr 1fr;
-  div{
-    padding: 1em;
-    font-size: 1em;
-  }
+  background-color: lighten($colorbase, 18%);
 }
 
 

@@ -2378,20 +2378,9 @@ body {
   background-color: #4c56ff;
 }
 
-.ensayo {
+section.container {
   display: grid;
-  height: 600px;
-  background-color: white;
-  min-width: 100%;
-  padding: 0;
-  margin: 0;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 2fr 1fr;
-}
-
-.ensayo div {
-  padding: 1em;
-  font-size: 1em;
+  background-color: #757dff;
 }
 
 .cssgrid_class {
