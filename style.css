@@ -2383,6 +2383,7 @@ section.container {
   background-color: #757dff;
   grid-template-columns: 1fr 2fr 1.5fr;
   grid-template-rows: 200px 1fr 133px 1fr;
+  grid-template: 1fr 2fr 125px / 25% 200px 1fr;
   grid-gap: 0.6em;
 }
 
