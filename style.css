@@ -2375,14 +2375,20 @@ p.form-submit,
 }
 
 body {
-  background-color: #372c48;
+  background-color: #4c56ff;
 }
 
 #presencia_main {
   display: grid;
   height: 600px;
-  background-color: #481718;
+  background-color: #7f86ff;
   min-width: 100%;
   padding: 0;
   margin: 0;
+}
+
+.cssgrid_class {
+  padding: 0;
+  margin: 0 auto;
+  background-color: #ccceff;
 }
